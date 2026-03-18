@@ -1,0 +1,31 @@
+{
+  "$metadata": {
+    "element": "layout",
+    "version": "1.0.0",
+    "figma-node-id": "13:2124",
+    "figma-frame": "Layout(布局)"
+  },
+
+  "layout": {
+
+    "space": {
+      "$doc": "layout#token-definitions",
+      "4":  { "$type": "dimension", "$value": "4px",  "$css": "--space-4",  "$extensions": { "classification": "intra-module", "permitted-in": ["icon-gap", "tight-padding"] } },
+      "8":  { "$type": "dimension", "$value": "8px",  "$css": "--space-8",  "$extensions": { "classification": "intra-module", "permitted-in": ["button-padding", "inline-gap"] } },
+      "12": { "$type": "dimension", "$value": "12px", "$css": "--space-12", "$extensions": { "classification": "intra-module", "permitted-in": ["field-padding", "card-padding"] } },
+      "20": { "$type": "dimension", "$value": "20px", "$css": "--space-20", "$description": "Boundary — valid for both intra and inter-module use", "$extensions": { "classification": "intra-module|inter-module", "permitted-in": ["list-row-gap", "section-padding"] } },
+      "28": { "$type": "dimension", "$value": "28px", "$css": "--space-28", "$extensions": { "classification": "inter-module", "permitted-in": ["card-gap"] } },
+      "32": { "$type": "dimension", "$value": "32px", "$css": "--space-32", "$extensions": { "classification": "inter-module", "permitted-in": ["section-gap"] } },
+      "36": { "$type": "dimension", "$value": "36px", "$css": "--space-36", "$extensions": { "classification": "inter-module", "permitted-in": ["large-section-gap"] } },
+      "40": { "$type": "dimension", "$value": "40px", "$css": "--space-40", "$extensions": { "classification": "inter-module", "permitted-in": ["page-section-gap"] } }
+    },
+
+    "safe-distance": {
+      "$doc": "layout#token-definitions",
+      "$description": "Mobile 375px viewport safe-distance system. Apply as nested margin + padding on the outermost page wrapper only.",
+      "margin":  { "$type": "dimension", "$value": "16px", "$css": "--safe-margin",  "$extensions": { "permitted-in": ["page-wrapper"] } },
+      "padding": { "$type": "dimension", "$value": "12px", "$css": "--safe-padding", "$extensions": { "permitted-in": ["page-wrapper"] } }
+    }
+
+  }
+}

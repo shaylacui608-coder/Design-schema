@@ -1,0 +1,88 @@
+{
+  "$metadata": {
+    "element": "font",
+    "version": "1.0.0",
+    "figma-node-id": "5:1052",
+    "figma-frame": "Typography"
+  },
+
+  "font": {
+
+    "primitive": {
+
+      "family": {
+        "$doc": "font#token-definitions",
+        "base":   { "$type": "fontFamily", "$value": ["PingFang SC", "Microsoft YaHei", "sans-serif"],                                          "$css": "--font-family-base"   },
+        "number": { "$type": "fontFamily", "$value": ["Helvetica Neue", "Helvetica", "Arial", "sans-serif"],                                    "$css": "--font-family-number" },
+        "code":   { "$type": "fontFamily", "$value": ["SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", "Courier", "monospace"],        "$css": "--font-family-code"   }
+      },
+
+      "weight": {
+        "$doc": "font#token-definitions",
+        "regular":  { "$type": "fontWeight", "$value": 400, "$css": "--font-weight-regular"  },
+        "medium":   { "$type": "fontWeight", "$value": 500, "$css": "--font-weight-medium"   },
+        "semibold": { "$type": "fontWeight", "$value": 600, "$css": "--font-weight-semibold" }
+      },
+
+      "size": {
+        "$doc": "font#token-definitions",
+        "12": { "$type": "dimension", "$value": "12px", "$css": "--font-size-12" },
+        "14": { "$type": "dimension", "$value": "14px", "$css": "--font-size-14" },
+        "16": { "$type": "dimension", "$value": "16px", "$css": "--font-size-16" },
+        "18": { "$type": "dimension", "$value": "18px", "$css": "--font-size-18" },
+        "20": { "$type": "dimension", "$value": "20px", "$css": "--font-size-20" },
+        "24": { "$type": "dimension", "$value": "24px", "$css": "--font-size-24" },
+        "28": { "$type": "dimension", "$value": "28px", "$css": "--font-size-28" },
+        "32": { "$type": "dimension", "$value": "32px", "$css": "--font-size-32" },
+        "36": { "$type": "dimension", "$value": "36px", "$css": "--font-size-36" },
+        "40": { "$type": "dimension", "$value": "40px", "$css": "--font-size-40" },
+        "48": { "$type": "dimension", "$value": "48px", "$css": "--font-size-48" }
+      },
+
+      "leading": {
+        "$doc": "font#token-definitions",
+        "12": { "$type": "dimension", "$value": "18px", "$css": "--font-leading-12" },
+        "14": { "$type": "dimension", "$value": "22px", "$css": "--font-leading-14" },
+        "16": { "$type": "dimension", "$value": "24px", "$css": "--font-leading-16" },
+        "18": { "$type": "dimension", "$value": "22px", "$css": "--font-leading-18", "$description": "Intentionally tight — compact heading rhythm" },
+        "20": { "$type": "dimension", "$value": "24px", "$css": "--font-leading-20" },
+        "24": { "$type": "dimension", "$value": "28px", "$css": "--font-leading-24" },
+        "28": { "$type": "dimension", "$value": "34px", "$css": "--font-leading-28" },
+        "32": { "$type": "dimension", "$value": "38px", "$css": "--font-leading-32" },
+        "36": { "$type": "dimension", "$value": "44px", "$css": "--font-leading-36" },
+        "40": { "$type": "dimension", "$value": "48px", "$css": "--font-leading-40" },
+        "48": { "$type": "dimension", "$value": "58px", "$css": "--font-leading-48" }
+      }
+    },
+
+    "semantic": {
+      "$doc": "font#token-definitions",
+
+      "body": {
+        "xs": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.12}", "fontWeight": "{font.primitive.weight.regular}", "lineHeight": "{font.primitive.leading.12}" }, "$css": { "size": "--font-body-xs-size", "weight": "--font-body-xs-weight", "leading": "--font-body-xs-leading" }, "$extensions": { "figma-token": "Regular/12", "permitted-in": ["caption", "footnote", "badge", "tooltip"] } },
+        "sm": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.14}", "fontWeight": "{font.primitive.weight.regular}", "lineHeight": "{font.primitive.leading.14}" }, "$css": { "size": "--font-body-sm-size", "weight": "--font-body-sm-weight", "leading": "--font-body-sm-leading" }, "$extensions": { "figma-token": "Regular/14", "permitted-in": ["paragraph", "list", "table-cell", "input-value"] } },
+        "md": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.16}", "fontWeight": "{font.primitive.weight.regular}", "lineHeight": "{font.primitive.leading.16}" }, "$css": { "size": "--font-body-md-size", "weight": "--font-body-md-weight", "leading": "--font-body-md-leading" }, "$extensions": { "figma-token": "Regular/16", "permitted-in": ["description", "intro-text"] } },
+        "lg": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.18}", "fontWeight": "{font.primitive.weight.regular}", "lineHeight": "{font.primitive.leading.18}" }, "$css": { "size": "--font-body-lg-size", "weight": "--font-body-lg-weight", "leading": "--font-body-lg-leading" }, "$extensions": { "figma-token": "Regular/18", "permitted-in": ["sub-heading", "callout"] } },
+        "xl": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.20}", "fontWeight": "{font.primitive.weight.regular}", "lineHeight": "{font.primitive.leading.20}" }, "$css": { "size": "--font-body-xl-size", "weight": "--font-body-xl-weight", "leading": "--font-body-xl-leading" }, "$extensions": { "figma-token": "Regular/20", "permitted-in": ["hero-body", "feature-text"] } }
+      },
+
+      "label": {
+        "xs": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.12}", "fontWeight": "{font.primitive.weight.medium}", "lineHeight": "{font.primitive.leading.12}" }, "$css": { "size": "--font-label-xs-size", "weight": "--font-label-xs-weight", "leading": "--font-label-xs-leading" }, "$extensions": { "figma-token": "Medium/12", "permitted-in": ["tag", "badge", "chip"] } },
+        "sm": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.14}", "fontWeight": "{font.primitive.weight.medium}", "lineHeight": "{font.primitive.leading.14}" }, "$css": { "size": "--font-label-sm-size", "weight": "--font-label-sm-weight", "leading": "--font-label-sm-leading" }, "$extensions": { "figma-token": "Medium/14", "permitted-in": ["button", "form-label", "menu-item", "link"] } },
+        "md": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.16}", "fontWeight": "{font.primitive.weight.medium}", "lineHeight": "{font.primitive.leading.16}" }, "$css": { "size": "--font-label-md-size", "weight": "--font-label-md-weight", "leading": "--font-label-md-leading" }, "$extensions": { "figma-token": "Medium/16", "permitted-in": ["strong-label", "nav-item"] } },
+        "lg": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.18}", "fontWeight": "{font.primitive.weight.medium}", "lineHeight": "{font.primitive.leading.18}" }, "$css": { "size": "--font-label-lg-size", "weight": "--font-label-lg-weight", "leading": "--font-label-lg-leading" }, "$extensions": { "figma-token": "Medium/18", "permitted-in": ["card-title", "tab", "drawer-title"] } },
+        "xl": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.20}", "fontWeight": "{font.primitive.weight.medium}", "lineHeight": "{font.primitive.leading.20}" }, "$css": { "size": "--font-label-xl-size", "weight": "--font-label-xl-weight", "leading": "--font-label-xl-leading" }, "$extensions": { "figma-token": "Medium/20", "permitted-in": ["section-label", "modal-title"] } }
+      },
+
+      "heading": {
+        "6": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.24}", "fontWeight": "{font.primitive.weight.semibold}", "lineHeight": "{font.primitive.leading.24}" }, "$css": { "size": "--font-heading-6-size", "weight": "--font-heading-6-weight", "leading": "--font-heading-6-leading" }, "$extensions": { "figma-token": "Semibold/24", "permitted-in": ["panel-heading", "card-header", "dialog-title"] } },
+        "5": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.28}", "fontWeight": "{font.primitive.weight.medium}",   "lineHeight": "{font.primitive.leading.28}" }, "$css": { "size": "--font-heading-5-size", "weight": "--font-heading-5-weight", "leading": "--font-heading-5-leading" }, "$extensions": { "figma-token": "Medium/28",   "permitted-in": ["page-subtitle", "section-heading"] } },
+        "4": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.32}", "fontWeight": "{font.primitive.weight.medium}",   "lineHeight": "{font.primitive.leading.32}" }, "$css": { "size": "--font-heading-4-size", "weight": "--font-heading-4-weight", "leading": "--font-heading-4-leading" }, "$extensions": { "figma-token": "Medium/32",   "permitted-in": ["section-title"] } },
+        "3": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.36}", "fontWeight": "{font.primitive.weight.medium}",   "lineHeight": "{font.primitive.leading.36}" }, "$css": { "size": "--font-heading-3-size", "weight": "--font-heading-3-weight", "leading": "--font-heading-3-leading" }, "$extensions": { "figma-token": "Medium/36",   "permitted-in": ["page-title"] } },
+        "2": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.40}", "fontWeight": "{font.primitive.weight.medium}",   "lineHeight": "{font.primitive.leading.40}" }, "$css": { "size": "--font-heading-2-size", "weight": "--font-heading-2-weight", "leading": "--font-heading-2-leading" }, "$extensions": { "figma-token": "Medium/40",   "permitted-in": ["large-title", "landing-heading"] } },
+        "1": { "$type": "typography", "$value": { "fontFamily": "{font.primitive.family.base}", "fontSize": "{font.primitive.size.48}", "fontWeight": "{font.primitive.weight.medium}",   "lineHeight": "{font.primitive.leading.48}" }, "$css": { "size": "--font-heading-1-size", "weight": "--font-heading-1-weight", "leading": "--font-heading-1-leading" }, "$description": "Figma internal ID 'Medium/22' = 48px display size", "$extensions": { "figma-token": "Medium/22", "permitted-in": ["hero-title", "display-heading"] } }
+      }
+
+    }
+  }
+}

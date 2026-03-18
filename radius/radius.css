@@ -1,0 +1,29 @@
+/* ════════════════════════════════════════════════════════════
+   RADIUS TOKENS  —  mydesignschema
+   Source: Figma node 5:1258  (frame "radius ", Page 1)
+   Note: 0px added, 8px removed in latest revision (→ 6px)
+   ════════════════════════════════════════════════════════════ */
+
+
+/* ── TIER 1 · Scale ──────────────────────────────────────── */
+:root {
+  --radius-none: 0px;   /* border-radius-1  sharp / no rounding    */
+  --radius-xs:   2px;   /* border-radius-2  subtle rounding         */
+  --radius-sm:   4px;   /* border-radius-3  small components        */
+  --radius-md:   6px;   /* border-radius-4  default components      */
+  --radius-lg:   12px;  /* border-radius-5  cards, modals           */
+  --radius-xl:   20px;  /* border-radius-6  large surfaces, avatars */
+}
+
+
+/* ── TIER 2 · Semantic Aliases ───────────────────────────── */
+:root {
+  --radius-button:    var(--radius-sm);    /* 4px   */
+  --radius-input:     var(--radius-sm);    /* 4px   */
+  --radius-tag:       var(--radius-md);    /* 6px   */
+  --radius-card:      var(--radius-md);    /* 6px   */
+  --radius-modal:     var(--radius-lg);    /* 12px  */
+  --radius-sheet:     var(--radius-lg);    /* 12px  */
+  --radius-avatar:    var(--radius-xl);    /* 20px  */
+  --radius-thumbnail: var(--radius-xl);    /* 20px  */
+}

@@ -1,0 +1,156 @@
+{
+  "$metadata": {
+    "element": "color",
+    "version": "1.0.0",
+    "figma-node-id": "1:367",
+    "figma-frame": "color"
+  },
+
+  "color": {
+
+    "primitive": {
+
+      "primary": {
+        "$doc": "color#token-definitions",
+        "1": { "$type": "color", "$value": "#F0FBFF", "$css": "--color-primary-1" },
+        "2": { "$type": "color", "$value": "#E0F5FF", "$css": "--color-primary-2" },
+        "3": { "$type": "color", "$value": "#94D1FF", "$css": "--color-primary-3" },
+        "4": { "$type": "color", "$value": "#4DB2FF", "$css": "--color-primary-4" },
+        "5": { "$type": "color", "$value": "#0088FF", "$css": "--color-primary-5" },
+        "6": { "$type": "color", "$value": "#006BE5", "$css": "--color-primary-6" }
+      },
+
+      "info": {
+        "$doc": "color#token-definitions",
+        "1": { "$type": "color", "$value": "#F0FBFF", "$css": "--color-info-1" },
+        "2": { "$type": "color", "$value": "#E0F5FF", "$css": "--color-info-2" },
+        "3": { "$type": "color", "$value": "#94D1FF", "$css": "--color-info-3" },
+        "4": { "$type": "color", "$value": "#4DB2FF", "$css": "--color-info-4" },
+        "5": { "$type": "color", "$value": "#0088FF", "$css": "--color-info-5" },
+        "6": { "$type": "color", "$value": "#0066DB", "$css": "--color-info-6" }
+      },
+
+      "success": {
+        "$doc": "color#token-definitions",
+        "1": { "$type": "color", "$value": "#EBFAEB", "$css": "--color-success-1" },
+        "2": { "$type": "color", "$value": "#B8E5C4", "$css": "--color-success-2" },
+        "3": { "$type": "color", "$value": "#83CC8B", "$css": "--color-success-3" },
+        "4": { "$type": "color", "$value": "#1AB844", "$css": "--color-success-4" },
+        "5": { "$type": "color", "$value": "#00A32B", "$css": "--color-success-5" },
+        "6": { "$type": "color", "$value": "#008F27", "$css": "--color-success-6" }
+      },
+
+      "danger": {
+        "$doc": "color#token-definitions",
+        "1": { "$type": "color", "$value": "#FFF1EB", "$css": "--color-danger-1" },
+        "2": { "$type": "color", "$value": "#FFE2DB", "$css": "--color-danger-2" },
+        "3": { "$type": "color", "$value": "#FAB4AF", "$css": "--color-danger-3" },
+        "4": { "$type": "color", "$value": "#FA5B50", "$css": "--color-danger-4" },
+        "5": { "$type": "color", "$value": "#F04330", "$css": "--color-danger-5" },
+        "6": { "$type": "color", "$value": "#CC221D", "$css": "--color-danger-6" }
+      },
+
+      "warning": {
+        "$doc": "color#token-definitions",
+        "1": { "$type": "color", "$value": "#FFF8E6", "$css": "--color-warning-1" },
+        "2": { "$type": "color", "$value": "#FFEBC2", "$css": "--color-warning-2" },
+        "3": { "$type": "color", "$value": "#FFD699", "$css": "--color-warning-3" },
+        "4": { "$type": "color", "$value": "#FF8324", "$css": "--color-warning-4" },
+        "5": { "$type": "color", "$value": "#FA6C00", "$css": "--color-warning-5" },
+        "6": { "$type": "color", "$value": "#EB4E00", "$css": "--color-warning-6" }
+      },
+
+      "secondary": {
+        "$doc": "color#token-definitions",
+        "1": { "$type": "color", "$value": "#F3F3F4", "$css": "--color-secondary-1" },
+        "2": { "$type": "color", "$value": "#D7D7DC", "$css": "--color-secondary-2" },
+        "3": { "$type": "color", "$value": "#B3B2BB", "$css": "--color-secondary-3" },
+        "4": { "$type": "color", "$value": "#45445B", "$css": "--color-secondary-4" },
+        "6": { "$type": "color", "$value": "#25243E", "$css": "--color-secondary-6", "$description": "secondary-5 absent from Figma source" }
+      },
+
+      "gray": {
+        "$doc": "color#token-definitions",
+        "1":  { "$type": "color", "$value": "#FFFFFF", "$css": "--color-gray-1"  },
+        "2":  { "$type": "color", "$value": "#F7F9FC", "$css": "--color-gray-2"  },
+        "3":  { "$type": "color", "$value": "#F2F4F7", "$css": "--color-gray-3"  },
+        "4":  { "$type": "color", "$value": "#F0F2F5", "$css": "--color-gray-4"  },
+        "5":  { "$type": "color", "$value": "#EBEDF0", "$css": "--color-gray-5"  },
+        "6":  { "$type": "color", "$value": "#D3D9E0", "$css": "--color-gray-6"  },
+        "7":  { "$type": "color", "$value": "#C5CBD1", "$css": "--color-gray-7"  },
+        "8":  { "$type": "color", "$value": "#A8ABB2", "$css": "--color-gray-8"  },
+        "9":  { "$type": "color", "$value": "#6C737A", "$css": "--color-gray-9"  },
+        "10": { "$type": "color", "$value": "#4F535C", "$css": "--color-gray-10" },
+        "11": { "$type": "color", "$value": "#1D2129", "$css": "--color-gray-11" }
+      },
+
+      "brand": {
+        "$doc": "color#token-definitions",
+        "$description": "暂未应用到组件 — not applied to components",
+        "red":   { "$type": "color", "$value": "#FD0134", "$css": "--color-brand-red"   },
+        "red-3": { "$type": "color", "$value": "#FE5275", "$css": "--color-brand-red-3" },
+        "red-4": { "$type": "color", "$value": "#FF9EB2", "$css": "--color-brand-red-4" },
+        "red-5": { "$type": "color", "$value": "#FFC5D0", "$css": "--color-brand-red-5" }
+      }
+    },
+
+    "semantic": {
+      "$doc": "color#token-definitions",
+
+      "text": {
+        "primary":     { "$type": "color", "$value": "#101011",                          "$css": "--color-text-primary",     "$extensions": { "figma-token": "text-gray-5",   "permitted-in": ["heading", "body", "label", "button-text"] } },
+        "secondary":   { "$type": "color", "$value": "#64676C",                          "$css": "--color-text-secondary",   "$extensions": { "figma-token": "text-gray-4",   "permitted-in": ["heading", "body", "label"] } },
+        "tertiary":    { "$type": "color", "$value": "#95989D",                          "$css": "--color-text-tertiary",    "$extensions": { "figma-token": "text-gray-3",   "permitted-in": ["caption", "hint", "badge"] } },
+        "disabled":    { "$type": "color", "$value": "#BCBEC3",                          "$css": "--color-text-disabled",    "$extensions": { "figma-token": "text-gray-2",   "permitted-in": ["disabled-state"] } },
+        "placeholder": { "$type": "color", "$value": "#C5CBD1",                          "$css": "--color-text-placeholder", "$extensions": { "figma-token": "text-gray-1",   "permitted-in": ["input", "textarea"] } },
+        "inverse":     { "$type": "color", "$value": "#FFFFFF",                          "$css": "--color-text-inverse",     "$extensions": { "figma-token": "text-white",    "permitted-in": ["dark-bg", "button-primary", "toast"] } },
+        "link":        { "$type": "color", "$value": "{color.primitive.primary.5}",      "$css": "--color-text-link",        "$extensions": { "figma-token": "text-link",     "permitted-in": ["anchor", "link-button"] } },
+        "accent":      { "$type": "color", "$value": "{color.primitive.warning.5}",      "$css": "--color-text-accent",      "$extensions": { "figma-token": "text-important","permitted-in": ["badge", "price", "alert-inline"] } }
+      },
+
+      "background": {
+        "base":         { "$type": "color", "$value": "#FFFFFF",                "$css": "--color-bg-base",         "$extensions": { "figma-token": "bg-1",              "permitted-in": ["card", "modal", "drawer", "page"] } },
+        "subtle":       { "$type": "color", "$value": "#FAFBFD",                "$css": "--color-bg-subtle",       "$extensions": { "figma-token": "bg-2",              "permitted-in": ["table-row", "list-item"] } },
+        "disabled":     { "$type": "color", "$value": "#F2F4F7",                "$css": "--color-bg-disabled",     "$extensions": { "figma-token": "bg-3",              "permitted-in": ["input", "select", "disabled-state"] } },
+        "elevated":     { "$type": "color", "$value": "#F7F9FC",                "$css": "--color-bg-elevated",     "$extensions": { "figma-token": "bg-7",              "permitted-in": ["container", "sidebar", "panel"] } },
+        "mask":         { "$type": "color", "$value": "rgba(0,0,0,0.34)",       "$css": "--color-bg-mask",         "$extensions": { "figma-token": "mask-bg",           "permitted-in": ["modal-overlay", "drawer-overlay"] } },
+        "popper-dark":  { "$type": "color", "$value": "rgba(29,33,41,0.80)",    "$css": "--color-bg-popper-dark",  "$extensions": { "figma-token": "popper-dark-bg",    "permitted-in": ["tooltip", "toast"] } },
+        "popper-light": { "$type": "color", "$value": "rgba(255,255,255,0.98)", "$css": "--color-bg-popper-light", "$extensions": { "figma-token": "popper-light-bg",   "permitted-in": ["popover", "dropdown"] } }
+      },
+
+      "border": {
+        "default": { "$type": "color", "$value": "{color.primitive.gray.6}", "$css": "--color-border-default", "$extensions": { "figma-token": "border-color-1", "permitted-in": ["input", "card", "table", "select"] } },
+        "subtle":  { "$type": "color", "$value": "{color.primitive.gray.5}", "$css": "--color-border-subtle",  "$extensions": { "figma-token": "border-color-2", "permitted-in": ["disabled-state", "inactive"] } }
+      },
+
+      "divider": {
+        "default": { "$type": "color", "$value": "{color.primitive.gray.5}", "$css": "--color-divider-default", "$extensions": { "figma-token": "divider-2", "permitted-in": ["list", "menu", "table-row"] } },
+        "light":   { "$type": "color", "$value": "{color.primitive.gray.4}", "$css": "--color-divider-light",   "$extensions": { "figma-token": "divider-1", "permitted-in": ["section", "panel"] } }
+      },
+
+      "action": {
+        "default":  { "$type": "color", "$value": "{color.primitive.primary.5}", "$css": "--color-action-default",  "$extensions": { "permitted-in": ["button", "toggle", "link-button"] } },
+        "hover":    { "$type": "color", "$value": "{color.primitive.primary.4}", "$css": "--color-action-hover",    "$extensions": { "permitted-in": ["button:hover"] } },
+        "pressed":  { "$type": "color", "$value": "{color.primitive.primary.6}", "$css": "--color-action-pressed",  "$extensions": { "permitted-in": ["button:active"] } },
+        "disabled": { "$type": "color", "$value": "{color.primitive.primary.3}", "$css": "--color-action-disabled", "$extensions": { "permitted-in": ["button:disabled"] } },
+        "surface":  { "$type": "color", "$value": "{color.primitive.primary.1}", "$css": "--color-action-surface",  "$extensions": { "permitted-in": ["selected-row", "active-tab", "chip-selected"] } }
+      },
+
+      "shadow": {
+        "default": { "$type": "color", "$value": "rgba(0,0,0,0.06)", "$css": "--color-shadow-default", "$extensions": { "figma-token": "ShadowInverse", "permitted-in": ["card", "modal", "dropdown", "popover"] } }
+      },
+
+      "gradient": {
+        "action-active":   { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#007AE5 0%,#0075DB 100%)", "$css": "--color-gradient-action-active",   "$extensions": { "figma-token": "linear-1", "permitted-in": ["button:active"] } },
+        "action-normal":   { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#00A2FF 0%,#0088FF 100%)", "$css": "--color-gradient-action-normal",   "$extensions": { "figma-token": "linear-2", "permitted-in": ["button"] } },
+        "action-hover":    { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#34AEFF 0%,#34A1FF 100%)", "$css": "--color-gradient-action-hover",    "$extensions": { "permitted-in": ["button:hover"] } },
+        "action-disabled": { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#9AD3FF 0%,#9AD0FF 100%)", "$css": "--color-gradient-action-disabled", "$extensions": { "figma-token": "linear-4", "permitted-in": ["button:disabled"] } },
+        "warning":         { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#FFF8E6 0%,#FFFBF0 100%)", "$css": "--color-gradient-warning",         "$extensions": { "figma-token": "linear-5", "permitted-in": ["status-chip", "alert-banner"] } },
+        "success":         { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#EBFAEB 0%,#F3FCF2 100%)", "$css": "--color-gradient-success",         "$extensions": { "figma-token": "linear-6", "permitted-in": ["status-chip", "alert-banner"] } },
+        "danger":          { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#FFF1EB 0%,#FFF9F5 100%)", "$css": "--color-gradient-danger",          "$extensions": { "figma-token": "linear-7", "permitted-in": ["status-chip", "alert-banner"] } },
+        "info":            { "$type": "custom-gradient", "$value": "linear-gradient(135deg,#F0FBFF 0%,#F5FDFF 100%)", "$css": "--color-gradient-info",            "$extensions": { "figma-token": "linear-8", "permitted-in": ["status-chip", "alert-banner"] } }
+      }
+
+    }
+  }
+}

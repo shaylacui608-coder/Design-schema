@@ -1,0 +1,26 @@
+/* ════════════════════════════════════════════════════════════
+   LAYOUT TOKENS  —  mydesignschema
+   Source: Figma node 13:2124  (frame "Layout(布局)", Page 1)
+   1pt = 1px  (web)
+   ════════════════════════════════════════════════════════════ */
+
+
+/* ── Spacing Scale ───────────────────────────────────────── */
+/* 用于模块内间距区隔  Intra-module: --space-4 through --space-20  */
+/* 用于模块间间距区隔  Inter-module: --space-20 through --space-40 */
+:root {
+  --space-4:  4px;   /* intra-module — tightest gap, icon padding    */
+  --space-8:  8px;   /* intra-module — inline element gap             */
+  --space-12: 12px;  /* intra-module — field internal padding         */
+  --space-20: 20px;  /* intra / inter boundary — list row gap         */
+  --space-28: 28px;  /* inter-module — card gap                       */
+  --space-32: 32px;  /* inter-module — section separation             */
+  --space-36: 36px;  /* inter-module — large section separation       */
+  --space-40: 40px;  /* inter-module — page-level section gap         */
+}
+
+/* ── Safe Distance (Mobile 375px viewport) ───────────────── */
+:root {
+  --safe-margin:  16px;  /* outer horizontal margin — left & right edge   */
+  --safe-padding: 12px;  /* inner content padding — inside the margin     */
+}

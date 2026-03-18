@@ -1,0 +1,35 @@
+{
+  "$metadata": {
+    "element": "radius",
+    "version": "1.0.0",
+    "figma-node-id": "5:1258",
+    "figma-frame": "radius",
+    "$note": "0px added, 8px removed in latest Figma revision"
+  },
+
+  "radius": {
+
+    "scale": {
+      "$doc": "radius#token-definitions",
+      "none": { "$type": "dimension", "$value": "0px",  "$css": "--radius-none", "$extensions": { "figma-token": "border-radius-1" } },
+      "xs":   { "$type": "dimension", "$value": "2px",  "$css": "--radius-xs",   "$extensions": { "figma-token": "border-radius-2" } },
+      "sm":   { "$type": "dimension", "$value": "4px",  "$css": "--radius-sm",   "$extensions": { "figma-token": "border-radius-3" } },
+      "md":   { "$type": "dimension", "$value": "6px",  "$css": "--radius-md",   "$extensions": { "figma-token": "border-radius-4" } },
+      "lg":   { "$type": "dimension", "$value": "12px", "$css": "--radius-lg",   "$extensions": { "figma-token": "border-radius-5" } },
+      "xl":   { "$type": "dimension", "$value": "20px", "$css": "--radius-xl",   "$extensions": { "figma-token": "border-radius-6" } }
+    },
+
+    "semantic": {
+      "$doc": "radius#token-definitions",
+      "button":    { "$type": "dimension", "$value": "{radius.scale.sm}", "$css": "--radius-button",    "$extensions": { "permitted-in": ["button"] } },
+      "input":     { "$type": "dimension", "$value": "{radius.scale.sm}", "$css": "--radius-input",     "$extensions": { "permitted-in": ["input", "select", "textarea"] } },
+      "tag":       { "$type": "dimension", "$value": "{radius.scale.md}", "$css": "--radius-tag",       "$extensions": { "permitted-in": ["tag", "chip", "badge"] } },
+      "card":      { "$type": "dimension", "$value": "{radius.scale.md}", "$css": "--radius-card",      "$extensions": { "permitted-in": ["card", "panel"] } },
+      "modal":     { "$type": "dimension", "$value": "{radius.scale.lg}", "$css": "--radius-modal",     "$extensions": { "permitted-in": ["modal", "dialog"] } },
+      "sheet":     { "$type": "dimension", "$value": "{radius.scale.lg}", "$css": "--radius-sheet",     "$extensions": { "permitted-in": ["bottom-sheet", "drawer"] } },
+      "avatar":    { "$type": "dimension", "$value": "{radius.scale.xl}", "$css": "--radius-avatar",    "$extensions": { "permitted-in": ["avatar"] } },
+      "thumbnail": { "$type": "dimension", "$value": "{radius.scale.xl}", "$css": "--radius-thumbnail", "$extensions": { "permitted-in": ["thumbnail", "image"] } }
+    }
+
+  }
+}

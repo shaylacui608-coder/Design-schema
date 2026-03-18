@@ -1,0 +1,127 @@
+/* ════════════════════════════════════════════════════════════
+   FONT TOKENS  —  mydesignschema
+   Source: Figma node 5:1052  (frame "Typography", Page 1)
+   ════════════════════════════════════════════════════════════
+   TIER 1 — Primitives: family, weight, size, leading
+   TIER 2 — Semantic composites: body, label, heading
+   ════════════════════════════════════════════════════════════ */
+
+
+/* ── TIER 1 · Family ─────────────────────────────────────── */
+:root {
+  --font-family-base:   "PingFang SC", "Microsoft YaHei", sans-serif;
+  --font-family-number: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-family-code:   "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+}
+
+/* ── TIER 1 · Weight ─────────────────────────────────────── */
+:root {
+  --font-weight-regular:  400;
+  --font-weight-medium:   500;
+  --font-weight-semibold: 600;
+}
+
+/* ── TIER 1 · Size ───────────────────────────────────────── */
+:root {
+  --font-size-12: 12px;
+  --font-size-14: 14px;
+  --font-size-16: 16px;
+  --font-size-18: 18px;
+  --font-size-20: 20px;
+  --font-size-24: 24px;
+  --font-size-28: 28px;
+  --font-size-32: 32px;
+  --font-size-36: 36px;
+  --font-size-40: 40px;
+  --font-size-48: 48px;
+}
+
+/* ── TIER 1 · Line Height (paired to size) ───────────────── */
+:root {
+  --font-leading-12: 18px;
+  --font-leading-14: 22px;
+  --font-leading-16: 24px;
+  --font-leading-18: 22px;
+  --font-leading-20: 24px;
+  --font-leading-24: 28px;
+  --font-leading-28: 34px;
+  --font-leading-32: 38px;
+  --font-leading-36: 44px;
+  --font-leading-40: 48px;
+  --font-leading-48: 58px;
+}
+
+
+/* ── TIER 2 · Semantic: Body  (Regular 400) ──────────────── */
+/* Usage: apply all three properties together as a group.     */
+:root {
+  --font-body-xs-size:    var(--font-size-12);       /* Regular/12  caption, footnote     */
+  --font-body-xs-weight:  var(--font-weight-regular);
+  --font-body-xs-leading: var(--font-leading-12);
+
+  --font-body-sm-size:    var(--font-size-14);       /* Regular/14  default body text      */
+  --font-body-sm-weight:  var(--font-weight-regular);
+  --font-body-sm-leading: var(--font-leading-14);
+
+  --font-body-md-size:    var(--font-size-16);       /* Regular/16  prominent body         */
+  --font-body-md-weight:  var(--font-weight-regular);
+  --font-body-md-leading: var(--font-leading-16);
+
+  --font-body-lg-size:    var(--font-size-18);       /* Regular/18  large body / sub-head  */
+  --font-body-lg-weight:  var(--font-weight-regular);
+  --font-body-lg-leading: var(--font-leading-18);
+
+  --font-body-xl-size:    var(--font-size-20);       /* Regular/20  display body           */
+  --font-body-xl-weight:  var(--font-weight-regular);
+  --font-body-xl-leading: var(--font-leading-20);
+}
+
+/* ── TIER 2 · Semantic: Label  (Medium 500) ──────────────── */
+:root {
+  --font-label-xs-size:    var(--font-size-12);      /* Medium/12  tag, badge              */
+  --font-label-xs-weight:  var(--font-weight-medium);
+  --font-label-xs-leading: var(--font-leading-12);
+
+  --font-label-sm-size:    var(--font-size-14);      /* Medium/14  form label, button      */
+  --font-label-sm-weight:  var(--font-weight-medium);
+  --font-label-sm-leading: var(--font-leading-14);
+
+  --font-label-md-size:    var(--font-size-16);      /* Medium/16  strong label            */
+  --font-label-md-weight:  var(--font-weight-medium);
+  --font-label-md-leading: var(--font-leading-16);
+
+  --font-label-lg-size:    var(--font-size-18);      /* Medium/18  card title, tab         */
+  --font-label-lg-weight:  var(--font-weight-medium);
+  --font-label-lg-leading: var(--font-leading-18);
+
+  --font-label-xl-size:    var(--font-size-20);      /* Medium/20  section label           */
+  --font-label-xl-weight:  var(--font-weight-medium);
+  --font-label-xl-leading: var(--font-leading-20);
+}
+
+/* ── TIER 2 · Semantic: Heading  (Semibold/Medium 600/500) ── */
+:root {
+  --font-heading-6-size:    var(--font-size-24);     /* Semibold/24  panel heading         */
+  --font-heading-6-weight:  var(--font-weight-semibold);
+  --font-heading-6-leading: var(--font-leading-24);
+
+  --font-heading-5-size:    var(--font-size-28);     /* Medium/28   page sub-title         */
+  --font-heading-5-weight:  var(--font-weight-medium);
+  --font-heading-5-leading: var(--font-leading-28);
+
+  --font-heading-4-size:    var(--font-size-32);     /* Medium/32   section title          */
+  --font-heading-4-weight:  var(--font-weight-medium);
+  --font-heading-4-leading: var(--font-leading-32);
+
+  --font-heading-3-size:    var(--font-size-36);     /* Medium/36   page title             */
+  --font-heading-3-weight:  var(--font-weight-medium);
+  --font-heading-3-leading: var(--font-leading-36);
+
+  --font-heading-2-size:    var(--font-size-40);     /* Medium/40   large title            */
+  --font-heading-2-weight:  var(--font-weight-medium);
+  --font-heading-2-leading: var(--font-leading-40);
+
+  --font-heading-1-size:    var(--font-size-48);     /* Medium/22 (display)  hero title    */
+  --font-heading-1-weight:  var(--font-weight-medium);
+  --font-heading-1-leading: var(--font-leading-48);
+}

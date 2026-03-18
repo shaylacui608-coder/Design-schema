@@ -1,0 +1,9 @@
+/* ════════════════════════════════════════════════════════════
+   mydesignschema  —  Design Token Entry Point
+   Import this single file to load all four token layers.
+   ════════════════════════════════════════════════════════════ */
+
+@import "./color/color.css";
+@import "./font/font.css";
+@import "./layout/layout.css";
+@import "./radius/radius.css";
