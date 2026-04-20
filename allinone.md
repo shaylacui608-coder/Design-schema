@@ -1,6 +1,6 @@
 # Design System — All-in-One Reference
 
-A condensed reference for all four token groups. Each row: token name · value · when to use.
+A condensed reference for design tokens. See [basiccomponent.md](basiccomponent.md) and [specificcomponent.md](specificcomponent.md) for components.
 
 ---
 
